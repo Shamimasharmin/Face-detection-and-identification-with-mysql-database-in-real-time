@@ -31,7 +31,7 @@ while(True):
 	
 	cv2.imshow('frame', frame) #imgshow,it is declare as frame that's why it doesn't shows gray color
 	if cv2.waitKey(20) & 0xFF == ord('q'):#to close the frame just press q
-		break
+	    break
 
 # When everything done, release the capture
 cam.release()
